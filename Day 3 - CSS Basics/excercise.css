@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: #faf9f9;
+}
+header > h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+div{
+    width: 75%;
+    border: 1px solid rgb(180, 164, 164);
+    padding: 20px;
+    background-color: white;
+}
+.card > main > section > img {
+    width: 100%;
+}
