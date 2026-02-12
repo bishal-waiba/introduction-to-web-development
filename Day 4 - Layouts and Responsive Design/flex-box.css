@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    gap: 16px;
+    /* justify-content: start;
+    justify-content: end; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: plum; */
+    height: 100vh;
+}
+
+.box{
+    /* width: 200px; */
+    flex: 1;
+    height: 200px;
+    background-color: mediumorchid;
+}
+
+.container :nth-child(odd){
+    background-color: navajowhite;
+}
