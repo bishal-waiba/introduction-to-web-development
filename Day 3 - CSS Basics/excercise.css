@@ -1,17 +1,17 @@
 body{
     text-align: center;
-    background-color: #faf9f9;
+    background-color: #b7a6a6;
 }
 header > h1{
-    text-align: center;
     background-color: antiquewhite;
 }
-div{
-    width: 75%;
+.card{
+    width: 30%;
     border: 1px solid rgb(180, 164, 164);
-    padding: 20px;
-    background-color: white;
+    padding: 30px;
+    background-color: #fff;
+    margin: 30px;
 }
-.card > main > section > img {
-    width: 100%;
+.card-photo > img{
+    max-width: 100%;
 }
