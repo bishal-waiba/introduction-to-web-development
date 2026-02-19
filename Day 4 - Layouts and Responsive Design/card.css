@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b7a6a6;
+}
+.card{
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid rgb(180, 164, 164);
+    background-color: #fff;
+    padding: 30px;
+}
+
+header > h1{
+    background-color: antiquewhite;
+}
+.card-photo img{
+    height: 200px;
+    width: 100%;
+}
